@@ -53,16 +53,34 @@ footer {
 .profile-photo {
     width: 339px;
     height: 310px;
+    float: left;
+    margin: 5px;
 }
 
 .heading-icon {
     padding-right: 5px;
-    vertical-align: top;
+    vertical-align: text-bottom;
     color: #646cff;
 }
 
 .profile {
-  max-width: 50%;
+  max-width: 75%;
+}
+
+.experience {
+
+    h3 {
+        text-align: left;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    border: #30245e thin solid;
+    padding: 0 10px;
+    margin: 10px;
+    max-width: 33%;
 }
 
 .copyright {

@@ -1,4 +1,5 @@
 import {LuUser} from "react-icons/lu";
+import ExperienceWidget from "./components/ExperienceWidget.jsx";
 
 export function About() {
 
@@ -27,6 +28,7 @@ export function About() {
                 When I'm not working on projects, I love building Gunpla, playing card games, organizing esports
                 tournaments for my local fighting game scene, and relaxing at home with my cat, Emmy.
             </p>
+            <ExperienceWidget />
         </div>
     )
     /** TODO Add sections for:
