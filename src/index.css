@@ -23,17 +23,28 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
+  margin: 0 15px;
+  display: inline-block;
   place-items: start;
   min-width: 320px;
   min-height: 100vh;
 }
 
-h2 {
-  font-size: 2.5em;
+h3 {
   line-height: 1.1;
   text-align: left;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+h2 {
+    text-align: left;
+    float: left;
+    padding-right: 20px;
 }
 
 p {
@@ -96,6 +107,25 @@ footer {
     bottom: 24px;
     right: 5%;
     scale: 110%;
+}
+
+.nav-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    a {
+        font-weight: 600;
+        font-size: 18px;
+        padding: 0 10px;
+        margin: 0 15px;
+        text-align: right;
+        float: right;
+        color: rgba(231, 235, 250, 0.87);
+    }
+
+    a:hover {
+        color: #b9b9b9;
+    }
 }
 
 @media (prefers-color-scheme: light) {

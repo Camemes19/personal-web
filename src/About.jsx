@@ -6,10 +6,10 @@ export function About() {
 
     return (
         <div>
-            <h2>
+            <h3>
                 <LuUser className={"heading-icon"}/>
                 Profile
-            </h2>
+            </h3>
             <img className={"profile-photo"} src={"images/quattro.webp"} alt={"Image of Quattro Bajeena from Mobile Suit Zeta" +
                 " Gundam"}/>
             <p className={"profile"}>

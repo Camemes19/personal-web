@@ -1,16 +1,16 @@
-import {LuTerminal} from "react-icons/lu";
+import {Link} from "react-router";
 
 function Header() {
 
   return (
     <header>
-      <LuTerminal/>
-      <h3>Cameron Jamieson</h3>
-
-      <p>About</p>
-      <p>Projects</p>
-      <p>Resume</p>
-      <p>Gunpla</p>
+        <h2>Cameron Jamieson</h2>
+        <div className={"nav-bar"}>
+            <Link to={'/'}>About</Link>
+            <Link to={'/projects'}>Projects</Link>
+            <Link to={'/resume'}>Resume</Link>
+            <Link to={'/gunpla'}>Gunpla</Link>
+        </div>
     </header>
   );
 
