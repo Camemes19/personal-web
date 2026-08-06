@@ -1,5 +1,3 @@
-import BacklogWidget from "./BacklogWidget.jsx";
-
 export function GunplaWidget() {
     return (
         <div>
@@ -9,7 +7,6 @@ export function GunplaWidget() {
             <p>
                 Soon, gotta add all those pictures I have!
             </p>
-            <BacklogWidget />
         </div>
     )
 }
