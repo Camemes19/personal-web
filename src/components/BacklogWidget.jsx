@@ -8,17 +8,17 @@ function BacklogWidget() {
             <div className={"m-3 h-4 max-w-9/10 bg-gray-500 flex -skew-x-24 rounded-br-md rounded-tl-md"}>
                 <div style={{width: "50%"}} className={"bg-red-500 flex rounded-tl-md drop-shadow-md" +
                     " drop-shadow-red-700"}></div>
-                <div style={{width: "5%"}} className={"bg-yellow-400 flex drop-shadow-md" +
+                <div style={{width: "5%"}} className={"bg-yellow-500 flex drop-shadow-md" +
                     " drop-shadow-yellow-700"}></div>
                 <div style={{width: "45%"}} className={"bg-green-600 flex rounded-br-md drop-shadow-md" +
                     " drop-shadow-green-800"}></div>
             </div>
             <div>
-                <Indicator/>
+                <Indicator color={"red"}/>
                 <small className={"m-1"}>Completed</small>
-                <Indicator/>
+                <Indicator color={"yellow"}/>
                 <small className={"m-1"}>In Progress</small>
-                <Indicator/>
+                <Indicator color={"green"}/>
                 <small className={"m-1"}>Incomplete</small>
             </div>
         </div>
