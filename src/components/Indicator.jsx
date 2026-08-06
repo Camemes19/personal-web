@@ -20,7 +20,7 @@ function Indicator({color}) {
             console.error(`Unsupported color choice`);
     }
     return (
-        <svg viewBox={"0 0 25 25"} xmlns="http://www.w3.org/2000/svg" width={"2%"} height={"2%"}
+        <svg viewBox={"0 0 25 25"} xmlns="http://www.w3.org/2000/svg" width={"0.75em"} height={"0.75em"}
              className={`drop-shadow-sm ${shadowColor}`}
         >
             <circle r={"30%"} cx={"50%"} cy={"50%"} className={fillColor}></circle>
