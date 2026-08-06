@@ -28,8 +28,6 @@ a:hover {
 }
 
 body {
-  margin: 0 15px;
-  display: inline-block;
   place-items: start;
   min-width: 320px;
   min-height: 100vh;
@@ -50,6 +48,7 @@ h2 {
     text-align: left;
     float: left;
     padding-right: 20px;
+    flex: 1
 }
 
 p {
@@ -117,12 +116,11 @@ footer {
 .nav-bar {
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex: 1;
     a {
         font-weight: 600;
         font-size: 18px;
-        padding: 0 10px;
-        margin: 0 15px;
         text-align: right;
         float: right;
         color: rgba(231, 235, 250, 0.87);
