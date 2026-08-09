@@ -33,7 +33,6 @@ export function About() {
     )
     /** TODO Add sections for:
      *  - Work Experience/Education
-     *  - CONTACT INFO
      *  - Achievements/Skills/Certifications
      *  - Projects?? Maybe a separate page
      *  - Something fun/interactive
