@@ -1,5 +1,5 @@
-import {LuUser} from "react-icons/lu";
 import ExperienceWidget from "./components/ExperienceWidget.jsx";
+import EducationWidget from "./components/EducationWidget.jsx";
 
 export function About() {
 
@@ -36,6 +36,7 @@ export function About() {
                 </p>
             </div>
             <ExperienceWidget />
+            <EducationWidget />
         </div>
     )
     /** TODO Add sections for:
