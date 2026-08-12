@@ -9,8 +9,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(231, 235, 250, 0.87);
-  background-color: #171326;
+  color: white;
+  background-color: black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,17 +20,18 @@
 
 a {
   font-weight: 500;
-  color: #888888;
   text-decoration: inherit;
-}
-a:hover {
-  color: #88999999;
 }
 
 body {
   place-items: start;
   min-width: 320px;
   min-height: 100vh;
+  margin: 0 auto;
+}
+
+button {
+    border: none;
 }
 
 h3 {
@@ -41,7 +42,7 @@ h3 {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: stretch;
 }
 
 h2 {
@@ -58,16 +59,12 @@ p {
 footer {
     padding-left: 5px;
     padding-right: 5px;
-    border-width: thin;
-    border-style: solid;
-    border-color: #30245e;
-    border-radius: 5px;
     height: 40px;
 }
 
 .profile-photo {
-    width: 339px;
-    height: 310px;
+    width: 20rem;
+    height: 18rem;
     float: left;
     margin: 5px;
 }
@@ -78,26 +75,11 @@ footer {
     color: #646cff;
 }
 
-.profile {
-  max-width: 75%;
-}
-
 .experience {
-
-    h3 {
-        text-align: left;
+    h4, h5 {
+        margin: 0;
     }
-
-    p {
-        text-align: center;
-    }
-
-    border: #30245e thin solid;
-    padding: 0 10px;
-    margin: 10px;
-    max-width: 33%;
 }
-
 .copyright {
     max-width: 20%;
     text-align: left;
@@ -123,11 +105,6 @@ footer {
         font-size: 18px;
         text-align: right;
         float: right;
-        color: rgba(231, 235, 250, 0.87);
-    }
-
-    a:hover {
-        color: #b9b9b9;
     }
 }
 

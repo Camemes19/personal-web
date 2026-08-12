@@ -6,7 +6,7 @@ import Header from "./Header.jsx";
 function App() {
 
   return (
-    <div className={"mx-auto max-w-[85%]"}>
+    <div className={"mx-auto"}>
         <Header />
         <About />
         <Footer />
